@@ -1,0 +1,19 @@
+.friends{
+    display: block;
+    width: auto;
+    height: 120px;
+    background-color: azure;
+}
+
+.friend img{
+    width: 35px;
+    border-radius: 15px;
+}
+.friend{
+    display: block;
+    float: left;
+    margin: 10px;
+}
+.friends h3{
+    text-align: center;
+}
