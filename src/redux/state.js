@@ -1,4 +1,5 @@
 import React from "react";
+import {rerenderEntireTree} from "../render";
 
 let state = {
     profilePage: {
@@ -42,6 +43,7 @@ let state = {
         likesCounter:15
     };
     state.profilePage.posts.push(newPost);
+    rerenderEntireTree(state);
 
 };
 
